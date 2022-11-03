@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace eBookingMovieSolutionData.Entities
 {
-    public class Ve
+    public class Giohang
     {
         public int Id { get; set; }
-        public int PhimId { get; set; }
-        public int GheId { get; set; }
+        public int VeId { get; set; }
+        public int Soluong { get; set; }
         public decimal Gia { get; set; }
-        public decimal Giagoc { get; set; }
-        public bool Trangthai { get; set; }
     }
 }

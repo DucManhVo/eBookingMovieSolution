@@ -14,6 +14,13 @@ namespace eBookingMovieSolutionData.EF
         {
         }
 
-        
+        public DbSet<Ve> Ves { get; set; }
+        public DbSet<Phanloai> Phanloais { get; set; }
+        public DbSet<AppConfig> AppConfig { get; set; }
+        public DbSet<Chitietdonhang> Chitietdonhangs { get; set; }
+        public DbSet<Donhang> Donhangs { get; set; }
+        public DbSet<Giohang> Giohangs { get; set; }
+        public DbSet<Khuyenmai> Khuyenmais { get; set; }
+        public DbSet<Lienhe> Lienhes { get; set; }
     }
 }
