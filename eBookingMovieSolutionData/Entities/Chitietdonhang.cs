@@ -12,6 +12,9 @@ namespace eBookingMovieSolutionData.Entities
         public int VeId { get; set; }
         public int Soluong { get; set; }
         public decimal Gia { get; set; }
+        public Donhang Donhang { get; set; }
+        public Ve Ve { get; set; }
 
+        
     }
 }

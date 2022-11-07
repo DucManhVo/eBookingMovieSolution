@@ -13,6 +13,14 @@ namespace eBookingMovieSolutionData.Entities
         public int GheId { get; set; }
         public decimal Gia { get; set; }
         public decimal Giagoc { get; set; }
+        public int Soluong { get; set; }
         public bool Trangthai { get; set; }
+
+
+        public List<Chitietdonhang> Chitietdonhangs { get; set; }
+        public Phim Phim { get; set; }
+        public Ghe Ghe { get; set; }
+
+        public List<Giohang> Giohangs { get; set; }
     }
 }

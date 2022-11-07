@@ -13,5 +13,8 @@ namespace eBookingMovieSolutionData.Entities
         public DateTime Thoigiantao { set; get; }
         public Guid UserId { set; get; }
         public Status Status { set; get; }
+
+        public List<Chitietdonhang> Chitietdonhangs { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
